@@ -179,7 +179,7 @@ opacity: 1;
     text-align: end;
 }
 .choices-all{
-    width: 70%;
+    width: 90%;
     margin: auto;
 }
 .choices{
@@ -299,6 +299,9 @@ font-size: 18px;
 }
 .progress-bar-precentage{
     font-size: 14px;
+}
+.choices-all{
+    width: 70%;
 }
 .choices{
     flex-wrap: wrap;
