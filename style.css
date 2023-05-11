@@ -9,7 +9,7 @@ li{
     width: 100%;
     list-style-type: none;
     padding: 5px;
-    color:white;
+    /* color:white; */
     padding-left: 0px ;
 
     /* text-align: center; */
@@ -30,11 +30,14 @@ li a {
 }
 .banner-sec-img img{
     width: 80%;
+    height: 35vw;
+
+
 }
 .banner-sec-bg1{
     background-color: #F5DEDE;
     width: 70%;
-    height: 10px;
+    height: .9vw;
     border: 1px solid #F5DEDE;
     border-radius: 0px 0px 6px 6px;
    margin: auto;
@@ -48,13 +51,13 @@ li a {
 
 .banner-sec-bg2{
     background-color: #FCF2F2;
-    width: 60%;
-    height: 5px;
+    width: 80%;
+    height: .7vw;
     border: 1px solid #FCF2F2;
     border-radius: 0px 0px 6px 6px;
    margin: auto;
    text-align: center;
-   margin-top: 9px;
+   margin-top: .9vw;
 
     
 }
@@ -106,6 +109,131 @@ opacity: 1;
     color: #1F36C7;
     transition: .3s;
 }
+/* page2 */
+.when-you-wish{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.gradient-bg{
+    margin: auto;
+    height: 35vw;
+    background-image: linear-gradient(to right, #1772AC,#46B8FF);
+    width: 80%;
+    border-radius: 8px;
+}
+.when-you-wish h1{
+    margin: 0;
+    color: white;
+    font-size: 2.5vw;
+    padding-top: 17.5vw;
+    padding-bottom: 17.5vw;
+    vertical-align: baseline;
+
+}
+
+/* progress bar */
+.progress-bar-sec{
+    width: 100%;
+    padding: 0;
+}
+.progress-bar-sec p{
+    font-size: 1.5vw;
+    width: 50%;
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+.progress-bar-text{
+    width: 30%;
+    color: #707070;
+    /* font-size: 1.5vw; */
+    font-weight: bold;
+    padding-right: 1.5vw;
+
+}
+.progress-bar{
+    width: 60%;
+    display: inline-block;
+    height: .8vw;
+    border: 1px solid #E3E3E3;
+    border-radius: 6px;
+    position: relative;
+}
+.progress-colored{
+    position: absolute;
+    left: 0;
+    height: .8vw;
+    display: inline-block;
+    background-color: #5FAC42;
+    width: 20%;
+    border: 1px solid #5FAC42;
+    border-radius:6px ;
+}
+.progress-bar-precentage{
+    display: inline-block;
+    width: 10%;
+    color: #5FAC42;
+    /* padding-left: 1.5vw; */
+    text-align: end;
+}
+.choices-all{
+    width: 70%;
+    margin: auto;
+}
+.choices{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    margin: auto;
+
+
+}
+.choices aside{
+    width: 40%;
+    height: 5vw;
+    margin: .5vw;
+    color: #707070;
+
+    border: 1px solid #E2E2E2;
+    /* text-align: center; */
+}
+
+.choices li{
+    list-style-type: circle;
+    font-size: 1.1vw;
+    height: 5vw;
+    width: 70%;
+    padding-left: 0vw;
+    /* color: #707070; */
+
+    margin:0;
+    vertical-align: baseline;
+}
+
+.choices aside:hover{
+    border: 1px solid #E2E2E2;
+    background-color: #5FAC42;
+    color: white!important;
+    transition: .3s;
+}
+.next-previous{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+}
+.previous,.next{
+    width: 3%;
+    padding: 5px;
+}
+.display{
+    display: none;
+}
 /* footer */
 
 .logo-sec p{
@@ -124,7 +252,7 @@ footer{
     color: white;
 }
 footer div{
-    font-size: 16px;
+    font-size: 1.5vw;
 
     padding: 15px;
     text-align: center;
@@ -147,41 +275,26 @@ footer h3{
 @media only screen and (min-width: 768px) {
     .bathing-habits{
         width: 70%;   
-        margin: auto;
     }
     .bathing-habits h3{
         width: 40%;   
-        margin: auto;
-        margin-top: 4vw;
         font-size: 24px;
-        text-align: center;
-    color: #1C1C1C;
-    opacity: 1;
     }
     .bathing-habits p{
         width:95%;   
-        margin: auto;
-        text-align: center;
-        color: #707070;
-        margin-top: 2vw;
-    
+        font-size: 18px;
     }
     .start-quiz{
         width: 100%;
-        margin: auto;
-        text-align: center;
         font-size: 18px;
-        margin-top: 2vw;
-        margin-bottom: 4vw;
     }
     .start-quiz button{
-        background-color: #1F36C7;
-        color: white;
-        border: 1px solid #1F36C7;
         font-size: 18px;
-        padding: 10px;
         width: 20%;
     }
+    
+
+
 footer{
     display: flex;
 
@@ -190,7 +303,7 @@ footer{
 }
 footer div{
     text-align: justify;
-    font-size: 18px;
+    /* font-size: 18px; */
 
 }
 li{
