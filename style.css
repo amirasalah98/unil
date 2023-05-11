@@ -110,7 +110,7 @@ opacity: 1;
     transition: .3s;
 }
 /* page2 */
-.when-you-wish,.are-you-more-inner{
+.when-you-wish,.are-you-more-inner,.are-you-more-inner2{
     width: 100%;
     margin: auto;
     text-align: center;
@@ -126,7 +126,7 @@ opacity: 1;
     background-image: url(images/Group\ 3472.png);
     background-size: cover;
 }
-.when-you-wish h1, .spend-bathroom-inner h1, .are-you-more-inner h1{
+.when-you-wish h1, .spend-bathroom-inner h1, .are-you-more-inner h1,.are-you-more-inner2 h1{
     margin: 0;
     color: white;
     font-size: 2.5vw;
@@ -184,6 +184,9 @@ opacity: 1;
 .progress-colored60{
     width: 60%;
 }
+.progress-colored80{
+    width: 80%;
+}
 .progress-bar-precentage{
     display: inline-block;
     width: 10%;
@@ -236,6 +239,7 @@ opacity: 1;
     background-color: #5FAC42;
     color: white!important;
     transition: .3s;
+    cursor: pointer;
 }
 .next-previous{
     width: 100%;

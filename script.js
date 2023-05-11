@@ -26,4 +26,13 @@ $(".start-quiz-btn").click(function(){
     $(".are-you-more").hide();
     $(".spend-in-bathroom").show();
   });
+  $(".next4").click(function(){
+    $(".are-you-more").hide();
+    $(".are-you-more2").show();
+  });
+  $(".prev5").click(function(){
+    $(".are-you-more2").hide();
+    $(".are-you-more").show();
+  });
+
 
