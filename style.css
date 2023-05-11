@@ -187,6 +187,9 @@ opacity: 1;
 .progress-colored80{
     width: 80%;
 }
+.progress-colored100{
+    width: 100%;
+}
 .progress-bar-precentage{
     display: inline-block;
     width: 10%;
@@ -208,8 +211,6 @@ opacity: 1;
     flex-wrap: wrap;
     /* text-align: center; */
     margin: auto;
-
-
 }
 
 .choices aside{
@@ -241,6 +242,47 @@ opacity: 1;
     transition: .3s;
     cursor: pointer;
 }
+
+/* page6 */
+.choices-custom{
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+.choices-custom div{
+    width: 100%;
+    border: 1px solid #E2E2E2;
+    padding: 4vw;
+    margin: .5vw;
+}
+.choices-custom div:hover{
+    border: 1px solid #5FAC42;
+    cursor: pointer;
+    transition: .3s;
+}
+.choices-custom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.choices-custom div{
+    /* width: 25%; */
+    width: 45%;
+    /* height: 150px; */
+    text-align: center;
+    /* padding: 75px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* vertical-align: middle; */
+}
+.choices-custom div img{
+    width: 50%;
+    /* margin: auto; */
+    max-height: 60px;
+    text-align: center;
+}
+
 .next-previous{
     width: 100%;
     display: flex;
@@ -249,8 +291,9 @@ opacity: 1;
     margin-bottom: 4vw;
     cursor: pointer;
 }
+
 .previous,.next{
-    width: 3%;
+    width: 8%;
     padding: 5px;
 }
 .display{
@@ -335,6 +378,7 @@ font-size: 18px;
     height: 7vw;
 
 }
+
 .choices li{
     font-size: 16px;
 }
@@ -357,5 +401,9 @@ li{
 .empty-space{
     display:inline-block;
     visibility: hidden;
+}
+.previous,.next{
+    width: 5%;
+    padding: 5px;
 }
 }
