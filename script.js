@@ -6,7 +6,24 @@ $(".start-quiz-btn").click(function(){
     $(".section-home").hide();
     $(".when-you-wish-all").show();
   });
-  $(".prev1").click(function(){
+  $(".prev2").click(function(){
     $(".when-you-wish-all").hide();
     $(".section-home").show();
   });
+  $(".next2").click(function(){
+    $(".when-you-wish-all").hide();
+    $(".spend-in-bathroom").show();
+  });
+  $(".prev3").click(function(){
+    $(".spend-in-bathroom").hide();
+    $(".when-you-wish-all").show();
+  });
+  $(".next3").click(function(){
+    $(".spend-in-bathroom").hide();
+    $(".are-you-more").show();
+  });
+  $(".prev4").click(function(){
+    $(".are-you-more").hide();
+    $(".spend-in-bathroom").show();
+  });
+
