@@ -42,6 +42,10 @@ $(".start-quiz-btn").click(function(){
     $(".what-brand").hide();
     $(".are-you-more2").show();
   });
+  $(".next6").click(function(){
+    $(".what-brand").hide();
+    $(".result").show();
+  });
 
   
 
