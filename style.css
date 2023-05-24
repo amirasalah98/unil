@@ -17,14 +17,16 @@ li a {
     width:100%;
     margin: auto;
     text-align: center;
-    margin-top: 5vw;
+    /* margin-top: 5vw; */
 }
 .banner-sec-img{
     text-align: center;
 }
 .banner-sec-img img{
-    width: 80%;
-    height: 35vw;
+    width: 100%;
+    scale: 1.02;
+
+    /* height: 35vw; */
 }
 .banner-sec-bg1{
     background-color: #F5DEDE;
@@ -86,8 +88,8 @@ opacity: 1;
     color: white;
     border: 1px solid #1F36C7;
     font-size: 16px;
-    padding: 5px;
-    width: 30%;
+    padding: 10px;
+    /* width: 50%; */
 }
 .start-quiz button:hover,.slider-explore-btn button:hover,.get-the-product-now button:hover{
     cursor: pointer;
@@ -99,6 +101,8 @@ opacity: 1;
     background-color: #554B7E;
     border: 1px solid #554B7E;
     width: 40%;
+    margin-top: 5vw;
+    margin-bottom: 3vw;
 }
 .get-the-product-now button:hover{
     color: #554B7E;
@@ -268,7 +272,7 @@ opacity: 1;
     margin: auto;
 }
 .slider-recommended{
-    width: 80%;
+    width: 100%;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -282,7 +286,7 @@ padding-bottom: 50px;
 }
 .recommended-middle{
     margin-top: 2vw;
-    width: 60%;
+    width: 100%;
 }
 .recommended-middle img{
     width: 100%;
@@ -311,44 +315,45 @@ padding-bottom: 50px;
     border: 1px solid #E51F1F;
 }
 .explore-more{
-    width: 100%;
+    /* width: 100%; */
     margin: auto;
     text-align: center;
 }
 .explore-more h3{
-    margin-bottom: 1.5vw;
+    margin-bottom: 4.5vw;
 }
 .border-underlined{
     width: 6%;
     height: 3px;
     background-color: #1F36C7;
     margin: auto;
-    margin-bottom: 1.5vw;
+    margin-bottom: 4.5vw;
 }
 .slider-explore{
     width: 70%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     text-align: center;
     margin: auto;
 }
 .slider-explore aside{
     width: 100%;
+    height: 220px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: flex-end;
-    border: 1px solid #E2E2E2;
-    margin: .5vw;
-    padding: 1vw;
+    border: 1px solid #1F36C7;
+    margin: 1.5vw;
+    padding-top: 4vw;
     background: #FFFFFF 0% 0% no-repeat padding-box;
 
 }
 .view-more{
-    margin: 2vw;
-    margin-bottom:4vw ;
+    margin: 4vw;
+    margin-bottom:7vw ;
 }
 .view-more a{
     color: #707070;
@@ -381,11 +386,17 @@ padding-bottom: 50px;
     display: none;
 }
 /* footer */
+.logo-sec{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+  }
 .logo-sec p{
     line-height: 2;
 }
 footer ul{
     padding-left: 0px ;
+    line-height: 2;
 }
 footer{
     width: 100%;
@@ -395,25 +406,66 @@ footer{
 }
 footer div{
     font-size: 16px;
-    padding: 15px;
-    text-align: center;
+    padding: 20px;
 }
 footer h3{
     margin-bottom: 5px;
 }
 
 .contact-us img{
-    height: 5vw;
+    height: 9vw;
     padding-top: 2vw;
     padding-right: 1vw;
 }
 .footer-logo{
-    width: 8vw;
+    width: 20%;
 }
 .empty-space{
     display: none;
 }
+.slider-desktop{
+    display: none;
+}
+.slider-wrapper {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.slides-container {
+  /* height: calc(100vh - 2rem); */
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slide {
+  width: 100%;
+  /* height: 100%; */
+  flex: 0 0 45%;
+}
+
+
+.slides-container {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+/* WebKit */
+.slides-container::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
 @media only screen and (min-width: 768px) {
+    .slider-desktop{
+        display: block;
+    }
+    .slider-mobile{
+        display: none;
+    }
     .bathing-habits{
         width: 70%;   
     }
@@ -426,6 +478,11 @@ footer h3{
     .bathing-habits p{
         width:95%;   
         font-size: 18px;
+    }
+    .banner-sec-img img{
+        width: 80%;
+        height: 35vw;
+        scale: 1;
     }
     .get-up-and-go{
         width: 80%;
@@ -478,6 +535,24 @@ footer div{
     text-align: justify;
     font-size: 18px;
 }
+.logo-sec{
+    display: block;
+    border-bottom: none;
+  }
+  .footer-logo{
+    width: 8vw;
+}
+.contact-us img{
+    height: 5vw;
+
+}
+.slider-recommended{
+    width: 80%;
+}
+.recommended-middle{
+    margin-top: 2vw;
+    width: 60%;
+}
 li{
     padding: 15px;
 
@@ -502,6 +577,7 @@ li{
 .slider-explore aside{
     width: 20%;
     padding: .5vw;
+    border: 1px solid #E2E2E2;
 }
 
 .img-prev ,.img-next {
